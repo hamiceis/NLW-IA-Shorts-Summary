@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #121214;
+  color: #FFF;
+
+  height: 100vh;
+  width: 100%;
+}
+
+body, button, input {
+  font-family: 'Roboto', sans-serif;
+}
